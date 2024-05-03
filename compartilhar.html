@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compartilhe Sua Música - HarmonyHype</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HarmonyHype - Compartilhe Sua Música</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="compartilhamento">
+            <h2>Compartilhe Sua Música Conosco</h2>
+            <p>Queremos ouvir sua música! Envie sua faixa abaixo e compartilhe seu talento com a comunidade HarmonyHype:
+            </p>
+            <form id="upload-form">
+                <label for="nome-artista">Nome do Artista:</label>
+                <input type="text" id="nome-artista" name="nome-artista" required>
+                <label for="titulo-musica">Título da Música:</label>
+                <input type="text" id="titulo-musica" name="titulo-musica" required>
+                <label for="genero">Gênero:</label>
+                <input type="text" id="genero" name="genero" required>
+                <label for="arquivo">Selecione o arquivo de áudio (MP3):</label>
+                <input type="file" id="arquivo" name="arquivo" accept="audio/mp3" required>
+                <button type="submit">Enviar Música</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HarmonyHype. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

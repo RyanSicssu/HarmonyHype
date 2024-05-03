@@ -1,0 +1,314 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #040404;
+    /* Preto */
+    color: #f0f0f0;
+    /* Branco */
+}
+
+header {
+    background-color: #000000;
+    /* Preto */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff00ff;
+    /* Rosa Neon */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    /* Branco */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #111111;
+    /* Cinza escuro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+    /* Efeito de sombra rosa neon */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff00ff;
+    /* Rosa Neon */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+    /* Branco */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222222;
+    /* Cinza escuro */
+    color: #f0f0f0;
+    /* Branco */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff00ff;
+    /* Rosa Neon */
+    color: #fff;
+    /* Branco */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00ffff;
+    /* Azul Neon */
+}
+
+footer {
+    background-color: #000000;
+    /* Preto */
+    color: #f0f0f0;
+    /* Branco */
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#services {
+    text-align: center;
+}
+
+#services h2 {
+    color: #ff00ff;
+    /* Rosa Neon */
+    text-shadow: 2px 2px 4px rgba(255, 0, 255, 0.6);
+}
+
+#services p {
+    color: #00ffff;
+    /* Azul Neon */
+    font-size: 18px;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#services ul li:before {
+    content: '\2022';
+    /* Bullet point */
+    position: absolute;
+    left: 0;
+    color: #ff00ff;
+    /* Rosa Neon */
+}
+
+/* styles.css */
+
+/* Estilos existentes mantidos */
+
+.service {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+    /* Efeito de sombra neon */
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    color: #ff00ff;
+    /* Rosa Neon */
+    text-shadow: 2px 2px 4px rgba(255, 0, 255, 0.6);
+    font-size: 24px;
+}
+
+.service p {
+    color: #00ffff;
+    /* Azul Neon */
+    font-size: 18px;
+}
+
+/* Adicione esses estilos ao final do arquivo styles.css */
+
+#recursos {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#recursos h2 {
+    color: #ff00ff;
+    /* Rosa Neon */
+}
+
+#recursos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recursos ul li {
+    margin-bottom: 10px;
+}
+
+#recursos ul li a {
+    color: #00ffff;
+    /* Azul Neon */
+    text-decoration: none;
+}
+
+#recursos ul li a:hover {
+    text-decoration: underline;
+}
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* Cor de fundo cinza claro */
+    color: #333;
+    /* Cor do texto preto */
+}
+
+header {
+    background-color: #000000;
+    /* Cor de fundo preto */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff00ff;
+    /* Cor do texto rosa neon */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    /* Cor do texto branco */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#downloads {
+    text-align: center;
+}
+
+#downloads h2 {
+    color: #ff00ff;
+    /* Cor do texto rosa neon */
+    margin-bottom: 20px;
+}
+
+.music-card {
+    background-color: #ffffff;
+    /* Cor de fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.music-card img {
+    max-width: 200px;
+    /* Largura máxima da imagem */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    display: block;
+    /* Para alinhar a imagem ao centro */
+    margin: 0 auto 20px auto;
+    /* Margem inferior para separar a imagem do restante do conteúdo */
+}
+
+.music-card h3 {
+    color: #333333;
+    /* Cor do texto preto */
+    margin-bottom: 10px;
+}
+
+.music-card p {
+    color: #666666;
+    /* Cor do texto cinza */
+    margin-bottom: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff00ff;
+    /* Cor de fundo rosa neon */
+    color: #ffffff;
+    /* Cor do texto branco */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #ff33ff;
+    /* Cor de fundo rosa neon mais claro quando hover */
+}
